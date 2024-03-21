@@ -4,7 +4,7 @@ language: node_js
 node_js: 18.19.0
 install: skip
 script: sleep 1
-Deploy:
+deploy:
   provider: npm
   email: "arthana.h@celestialsys.com"
   api_key: "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"

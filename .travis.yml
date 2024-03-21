@@ -10,6 +10,6 @@ deploy:
   api_key: "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"
   skip_cleanup: true
   on:
-    tags: true
+    all_branches: true
 
 

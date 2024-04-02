@@ -7,7 +7,7 @@ script: sleep 1
 deploy:
   provider: npm
   email: "arthana.h@celestialsys.com"
-  api_key: "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"
+  api_key: "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"
   skip_cleanup: true
   on:
     all_branches: true

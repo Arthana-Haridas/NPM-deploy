@@ -7,7 +7,8 @@ script: sleep 1
 deploy:
   provider: npm
   email: "arthana.h@celestialsys.com"
-  api_key: "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"
+  api_key: 
+     secure: "Cu3l5jqpaDOgPcGmwS4fpb03mU80zuHM5OE0Cc8OUwBzu1cXd0WNvq4KMHYrZCnzlsGxT0myshU4PISgYAZ6pMPW6AlH8O7QrVHNlI0Chk0DglFaEsKeh7QQ8sawDajq70WMAf/VGGYkHF/6DkHq13gCsLN5ilr+g+lOrE5nk2q+uecg1qvMwROsAUQHSxUUP6LMA3HK5Egogei6E71vxNM5T4ewvtDx4d3xAeI2DFRmFaUQfPexNyZ1+dtCtekhAQCK1VxNe9Hf/2Al205jVgCyDSdQSt7PYuyXDlSm8i+qcPLuvviEvqaczYrU3fdvusrRafCsMW3vHjztbf+3xcau/z/X0n+oM/vkX4xqo7OaC7VuhV7YLcSLu/KHzB/im1meABBs8W6MSir2SbIB257A4Skh6Nh8Dh4jSEAw5XoQIgdJdZtMDtZNhxbKVyvPitL3PEhCphEEC4MkSE9+iJRGBPVSnTrRqjO3zsFPNvyp9Shy3gPbaFvq7ATicOdXM98mvBlq6x+GUowzV3NgM8UOkALra00jZqALJ/ga2VPjJhaX/Nh5AIHkDKgnuPPXHrKmVe66717pWesgY0epTVXqehELYRZzu58tSzmv8VcoWjKl2+wopyTp6s+XS9rccvpY3jpyBxFcdfgBBEn4giosj8SY4MYySMI0HO0OfY0="
  # skip_cleanup: true
   on:
    branch: npm-v10

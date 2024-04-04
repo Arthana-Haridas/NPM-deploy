@@ -8,8 +8,8 @@ deploy:
   provider: npm
   email: "arthana.h@celestialsys.com"
   api_key: "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"
-  skip_cleanup: true
+ # skip_cleanup: true
   on:
-    all_branches: true
+   branch: npm-v10
 
 
